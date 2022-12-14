@@ -96,14 +96,19 @@ a {
 
 .favorite {
     border: 1px solid var(--light-bg);
-    background: var(--gold-bg);
+    background: var(--gold-bg-1);
     border-radius: 20px;
     width: 400px;
     height: 400px;
-    -o-transition: all .5s;
-    -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5 ease;
+}
+
+.favorite:hover {
+    animation: gold-anim 0.4s infinite;
+    -webkit-animation: gold-anim 0.4s infinite;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5 ease;
 }
 
 .favorite__img-wrapper {
