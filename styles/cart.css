@@ -1,0 +1,90 @@
+@import url("./variables.css");
+
+.main {
+  padding: var(--padding-xl);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  background: var(--light-bg);
+  border-radius: 1rem;
+  padding: var(--padding-m) var(--padding-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--margin-s);
+}
+
+.column {
+  padding: 0 var(--padding-m);
+}
+
+.product__image {
+  height: var(--height-m);
+}
+
+.title,
+.price {
+  padding: var(--padding-s) 0;
+}
+
+.counts {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: var(--padding-m);
+  background: inherit;
+  border: none;
+  font-size: var(--font-size-l);
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+  color: var(--secondary-text);
+}
+
+.count {
+  padding: var(--padding-m);
+  font-size: var(--font-size-m);
+  background: rgb(236, 236, 236);
+  border-radius: 1rem;
+}
+
+hr {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--light-text);
+  margin: var(--margin-l) 0;
+}
+
+.total {
+  background: var(--light-bg);
+  border-radius: 1rem;
+  padding: var(--padding-m) var(--padding-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--margin-s);
+}
+
+.confirm {
+  font-size: var(--font-size-m);
+  border: 2px solid var(--light-bg);
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 1rem;
+  padding: var(--padding-m) var(--padding-xl);
+}
