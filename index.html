@@ -4,19 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Application</title>
+    <link
+      rel="shortcut icon"
+      href="./public/icons/logo.svg"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/media.css" />
   </head>
   <body>
     <div id="app">
-      <header class="header"></header>
+      <div class="headers">
+        <header class="header">
+          <div class="logo-wrapper">
+            <img
+              src="./public/icons/logo.svg"
+              alt="Something went wrong"
+              class="logo"
+            />
+          </div>
+
+          <div class="input-wrapper">
+            <input class="input" type="text" placeholder="Searching ..." />
+          </div>
+        </header>
+
+        <section class="sub-header">
+          <nav class="nav sub-header-nav">
+            <a href="#" class="nav-link">Category</a>
+            <a href="#" class="nav-link">About us</a>
+            <a href="#" class="nav-link">Favorites</a>
+            <a href="#" class="nav-link">Cart</a>
+            <a href="#" class="nav-link">Login</a>
+          </nav>
+        </section>
+      </div>
 
       <section class="content">
         <aside class="sidebar"></aside>
         <main class="main"></main>
       </section>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <nav class="nav">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Home</a>
+        </nav>
+
+        <nav class="nav">
+          <a href="#" class="nav-link">Telegram</a>
+          <a href="#" class="nav-link">Instagram</a>
+          <a href="#" class="nav-link">Viber</a>
+        </nav>
+      </footer>
     </div>
   </body>
 </html>
