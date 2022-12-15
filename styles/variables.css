@@ -14,6 +14,8 @@
     --secondary-bg : orchid;
     --attantion-bg : purple;
     --warning-bg : gold;
+    --gold-bg-1: linear-gradient( rgb(255, 153, 0) , rgb(255, 243, 75), rgb(255, 230, 87));
+    --gold-bg-2: linear-gradient( rgb(255, 163, 24) , rgb(255, 239, 22), rgb(253, 234, 127));    
     --danger-bg : tomato;
     --dark-bg : #232323;
     --light-bg : aliceblue;
