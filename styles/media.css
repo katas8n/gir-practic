@@ -24,10 +24,6 @@
     padding: 2rem 0;
   }
 
-  .nav-link:last-child {
-    padding-bottom: 0;
-  }
-
   .main {
     display: flex;
     align-items: center;

@@ -11,17 +11,18 @@
 :root {
   /* BG */
   --primary-bg: linear-gradient(fuchsia, cyan);
+  --primary-bg-light: linear-gradient(rgb(255, 197, 255), rgb(181, 255, 255));
   --secondary-bg: orchid;
-  --attantion-bg: purple;
+  --attention-bg: purple;
   --warning-bg: gold;
   --danger-bg: tomato;
   --dark-bg: #232323;
-  --light-bg: aliceblue;
+  --light-bg: rgb(255, 255, 255);
   --success-bg: lightgreen;
 
   /* text */
   --secondary-text: orchid;
-  --attantion-text: purple;
+  --attention-text: purple;
   --warning-text: gold;
   --danger-text: tomato;
   --dark-text: #232323;
@@ -29,9 +30,9 @@
   --success-text: lightgreen;
 
   /* font-size */
-  --font-size-xl: 3rem;
-  --font-size-l: 2rem;
-  --font-size-m: 1.4rem;
+  --font-size-xl: 2rem;
+  --font-size-l: 1.4rem;
+  --font-size-m: 1.2rem;
   --font-size-s: 1rem;
   --font-size-xs: 0.8rem;
 
@@ -42,16 +43,16 @@
   /* padding */
   --padding-xl: 3rem;
   --padding-l: 2rem;
-  --padding-m: 1.4rem;
+  --padding-m: 1.5rem;
   --padding-s: 1rem;
-  --padding-xs: 0.8rem;
+  --padding-xs: 0.5rem;
 
   /* margin */
   --margin-xl: 3rem;
   --margin-l: 2rem;
-  --margin-m: 1.4rem;
+  --margin-m: 1.5rem;
   --margin-s: 1rem;
-  --margin-xs: 0.8rem;
+  --margin-xs: 0.5rem;
 
   /* box-shadow */
   --box-shadow-xl: 7px 10px 7px;
@@ -71,6 +72,8 @@
   --height-xl: 23rem;
   --height-l: 13rem;
   --height-m: 8rem;
-  --height-s: 5rem;
+  --height-s: 4rem;
   --height-xs: 3rem;
+
+  --primary-transition: 0.3s ease-in-out;
 }

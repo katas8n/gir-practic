@@ -1,5 +1,66 @@
 @import url("./variables.css");
 
+#app {
+  padding: 0;
+  background: var(--primary-bg-light);
+}
+
+.header,
+.sub-header {
+  padding: var(--padding-m) 0;
+  border-bottom: 2px solid var(--light-bg);
+}
+
+.logo-wrapper,
+.input-wrapper {
+  margin: 0 var(--margin-m);
+}
+
+.nav {
+  padding: 0;
+}
+
+.nav,
+.sub-header {
+  background: rgba(154, 136, 255, 0.5);
+}
+
+.sub-header > .nav,
+.nav:last-child {
+  background: none;
+}
+
+.nav-link,
+.confirm {
+  color: var(--dark-text);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  border: 2px solid var(--light-bg);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+  padding: var(--padding-s) var(--padding-l);
+  transition: var(--primary-transition);
+}
+
+.nav-link:hover,
+.confirm:hover {
+  border: 2px solid var(--secondary-bg);
+}
+
+.input {
+  border-bottom: 2px solid var(--light-bg);
+  transition: var(--primary-transition);
+  font-family: var(--secondary-ff);
+}
+
+.input::placeholder {
+  color: rgba(121, 93, 146, 0.5);
+}
+
+.input:focus {
+  border-bottom: 2px solid var(--secondary-bg);
+}
+
 .main {
   padding: var(--padding-xl);
   display: flex;
@@ -40,18 +101,6 @@
   justify-content: center;
 }
 
-.button {
-  padding: var(--padding-m);
-  background: inherit;
-  border: none;
-  font-size: var(--font-size-l);
-  transition: 0.3s ease-in-out;
-}
-
-.button:hover {
-  color: var(--secondary-text);
-}
-
 .count {
   padding: var(--padding-m);
   font-size: var(--font-size-m);
@@ -81,10 +130,20 @@ hr {
   margin-top: var(--margin-s);
 }
 
-.confirm {
-  font-size: var(--font-size-m);
-  border: 2px solid var(--light-bg);
-  background: rgba(255, 255, 255, 0.4);
+.footer > .nav {
+  border-top: 2px solid var(--light-bg);
+  padding: var(--padding-m) 0;
+}
+
+.network {
+  font-size: var(--font-size-xl);
+  padding: var(--padding-s);
   border-radius: 1rem;
-  padding: var(--padding-m) var(--padding-xl);
+  border: 2px solid var(--light-bg);
+  transition: var(--primary-transition);
+}
+
+.network:hover {
+  color: var(--attention-text);
+  border: 2px solid var(--secondary-bg);
 }
