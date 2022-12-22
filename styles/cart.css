@@ -30,6 +30,18 @@
   background: none;
 }
 
+.button {
+  padding: var(--padding-xs);
+  font-size: var(--font-size-l);
+  border: none;
+  background: transparent;
+  transition: var(--primary-transition);
+}
+
+.button:hover {
+  color: var(--secondary-text);
+}
+
 .nav-link,
 .confirm {
   color: var(--dark-text);
@@ -44,6 +56,7 @@
 
 .nav-link:hover,
 .confirm:hover {
+  color: var(--primary-text);
   border: 2px solid var(--secondary-bg);
 }
 
@@ -51,10 +64,11 @@
   border-bottom: 2px solid var(--light-bg);
   transition: var(--primary-transition);
   font-family: var(--secondary-ff);
+  padding-bottom: .2rem;
 }
 
 .input::placeholder {
-  color: rgba(121, 93, 146, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .input:focus {
@@ -62,7 +76,7 @@
 }
 
 .main {
-  padding: var(--padding-xl);
+  padding: var(--padding-l);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -104,7 +118,7 @@
 .count {
   padding: var(--padding-m);
   font-size: var(--font-size-m);
-  background: rgb(236, 236, 236);
+  background: rgb(245, 245, 245);
   border-radius: 1rem;
 }
 
@@ -127,12 +141,16 @@ hr {
 .button-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: var(--margin-s);
+  margin-top: var(--margin-l);
 }
 
 .footer > .nav {
   border-top: 2px solid var(--light-bg);
   padding: var(--padding-m) 0;
+}
+
+.networks {
+  justify-content: center;
 }
 
 .network {
@@ -141,6 +159,7 @@ hr {
   border-radius: 1rem;
   border: 2px solid var(--light-bg);
   transition: var(--primary-transition);
+  margin: 0 var(--margin-s);
 }
 
 .network:hover {
