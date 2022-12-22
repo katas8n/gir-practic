@@ -11,7 +11,7 @@
 :root {
   /* BG */
   --primary-bg: linear-gradient(fuchsia, cyan);
-  --primary-bg-light: linear-gradient(rgb(255, 197, 255), rgb(181, 255, 255));
+  --primary-bg-light: linear-gradient(rgb(255, 197, 255), rgb(165, 236, 236));
   --secondary-bg: orchid;
   --attention-bg: purple;
   --warning-bg: gold;
