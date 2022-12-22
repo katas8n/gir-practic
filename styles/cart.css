@@ -16,6 +16,11 @@
   margin: 0 var(--margin-m);
 }
 
+.logo:hover {
+  animation: animation var(--secondary-transition);
+  animation-iteration-count: 1;
+}
+
 .nav {
   padding: 0;
 }
@@ -40,6 +45,8 @@
 
 .button:hover {
   color: var(--secondary-text);
+  animation: animation var(--secondary-transition);
+  animation-iteration-count: 1;
 }
 
 .nav-link,
@@ -165,4 +172,18 @@ hr {
 .network:hover {
   color: var(--attention-text);
   border: 2px solid var(--secondary-bg);
+  animation: animation var(--secondary-transition);
+  animation-iteration-count: 1;
+}
+
+@keyframes animation {
+  10% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
