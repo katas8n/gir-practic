@@ -8,6 +8,7 @@
 	<link rel="shortcut icon" href="../public/icons/logo.svg" type="image/x-icon" />
 	<link rel="stylesheet" href="../styles/style.css" />
 	<link rel="stylesheet" href="../styles/media.css" />
+
 </head>
 
 <body>
@@ -22,18 +23,23 @@
 				<div class="input-wrapper">
 					<input class="input" type="text" placeholder="Searching ..." />
 				</div>
-			</header>
 
-			<section class="sub-header">
-				<nav class="nav sub-header-nav">
-					<a href="./pages/category.htm" class="nav-link">Category</a>
-					<a href="./pages/about-us.html" class="nav-link">About us</a>
-					<a href="./pages/favorites.html" class="nav-link">Favorites</a>
-					<a href="./pages/cart.html" class="nav-link">Cart</a>
-					<a href="./pages/login.html" class="nav-link">Login</a>
-					
+
+				<section class="sub-header">
+					<nav class="nav sub-header-nav">
+						<ul class="menu__nav">
+							<li><a href="./pages/category.htm" class="nav-link">Category</a></li>
+							<li><a href="./pages/about-us.html" class="nav-link">About us</a></li>
+							<li><a href="./pages/favorites.html" class="nav-link">Favorites</a></li>
+							<li><a href="./pages/cart.html" class="nav-link">Cart</a></li>
+							<li><a href="./pages/login.html" class="nav-link">Login</a></li>
+						</ul>
+				</section>
+				<div class="header__burger">
+					<span></span>
+				</div>
 				</nav>
-			</section>
+			</header>
 		</div>
 
 		<section class="content">
@@ -101,6 +107,8 @@
 			</nav>
 		</footer>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="./public/script/script.js"></script>
 </body>
 
 </html>
