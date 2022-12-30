@@ -12,7 +12,7 @@
 	/* BG */
 	--primary-bg: linear-gradient(fuchsia, cyan);
 	--secondary-bg: orchid;
-	--attantion-bg: purple;
+	--attention-bg: purple;
 	--warning-bg: gold;
 	--gold-bg-1: linear-gradient(rgb(255, 153, 0), rgb(255, 243, 75), rgb(255, 230, 87));
 	--gold-bg-2: linear-gradient(rgb(255, 163, 24), rgb(255, 239, 22), rgb(253, 234, 127));
@@ -23,7 +23,7 @@
 
 	/* text */
 	--secondary-text: orchid;
-	--attantion-text: purple;
+	--attention-text: purple;
 	--warning-text: gold;
 	--danger-text: tomato;
 	--dark-text: #232323;
