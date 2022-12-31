@@ -23,6 +23,7 @@
 		border: none;
 		border-bottom: 2px solid var(--light-bg);
 		transition-duration: .3s;
+		cursor: pointer;
 	}
 
 	.input:hover {
@@ -35,6 +36,7 @@
 		width: 30px;
 		height: 20px;
 		z-index: 3;
+		cursor: pointer;
 	}
 
 	.header__burger span {
@@ -147,6 +149,7 @@
 		border: none;
 		border-bottom: 1px solid var(--light-bg);
 		transition-duration: .3s;
+		cursor: pointer;
 	}
 
 	.input:hover {
@@ -164,6 +167,7 @@
 		height: 20px;
 		position: relative;
 		z-index: 3;
+		cursor: pointer;
 	}
 
 	.header__burger span {
@@ -333,6 +337,7 @@
 		border: none;
 		border-bottom: 1px solid var(--light-bg);
 		transition-duration: .3s;
+		cursor: pointer;
 	}
 
 	.input:hover {
@@ -356,6 +361,7 @@
 		height: 20px;
 		position: relative;
 		z-index: 3;
+		cursor: pointer;
 	}
 
 	.header__burger span {

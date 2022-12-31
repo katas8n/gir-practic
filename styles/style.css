@@ -57,6 +57,7 @@ a {
 	border: none;
 	border-bottom: 2px solid var(--light-bg);
 	transition-duration: .3s;
+	cursor: pointer;
 }
 
 .input:hover {
